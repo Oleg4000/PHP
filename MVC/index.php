@@ -78,7 +78,6 @@
     $view = new CounterView();
     $controller = new CounterController($model, $view);
     $controller->recursion();
-
     ?>
 </body>
 
