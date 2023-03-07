@@ -18,6 +18,18 @@
         } else return;
     }
     recursion(8);
+
+
+    //вложені ф-ції
+    function outter()
+    {
+        function inner()
+        {
+            return "Hello world";
+        }
+    }
+
+    echo outter(), inner();
     ?>
 </body>
 
