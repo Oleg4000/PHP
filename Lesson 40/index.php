@@ -10,7 +10,14 @@
 
 <body>
     <?php
-
+    function recursion($counter)
+    {
+        if ($counter > 0) {
+            echo ($counter--) . '<br>';
+            recursion($counter);
+        } else return;
+    }
+    recursion(8);
     ?>
 </body>
 
