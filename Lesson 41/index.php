@@ -64,7 +64,41 @@
     }
     echo makecoffee();
     echo makecoffee(array("капучино", "лавацца"), "в чайнике");
+
+    echo '<br>';
+
+
+    //return
+    $b = 5;
+    function square($num)
+    {
+        return $num * $num;
+    }
+    echo square($b);
+
+    echo '<br>';
+    echo '<br>';
+
+
+    //Виклик функції
+    function skazhiPrivit($imya, $prizvische, $vik)
+    {
+        echo "Привіт! Мене звуть $imya $prizvische і мені $vik років";
+    }
+    skazhiPrivit("Олег", "Клим", 25);
+
+    echo '<br>';
+    echo '<br>';
+    //визначення IP
+    function getSiteIp()
+    {
+        $domain = "google.com.ua";
+        $ip = gethostbyname($domain);
+        return $ip;
+    }
+    echo "IP адреса сайту: " . getSiteIp();
     ?>
+
 </body>
 
 </html>
