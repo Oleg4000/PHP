@@ -9,7 +9,18 @@
 </head>
 
 <body>
+    <?php
+    $message = "Повідомлення текст";
+    $mFu = function () use ($message) {
+        //echo $message;
+        $message = "New";
+        return $message;
+    };
 
+    echo $mFu();
+    echo '<br>';
+    echo $message;
+    ?>
 </body>
 
 </html>
