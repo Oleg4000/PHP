@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    $message = "Повідомлення текст";
+    /*  $message = "Повідомлення текст";
     $mFu = function () use ($message) {
         //echo $message;
         $message = "New";
@@ -19,7 +19,17 @@
 
     echo $mFu();
     echo '<br>';
-    echo $message;
+    echo $message; */
+
+    function odd(int $number)
+    {
+        if ($number % 2 == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    echo odd(4);
     ?>
 </body>
 
