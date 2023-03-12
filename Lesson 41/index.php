@@ -92,7 +92,7 @@
     //визначення IP
     function getSiteIp()
     {
-        $domain = "google.com.ua";
+        $domain = "https://sebweo.com/uroki-php-funktsiyi/";
         $ip = gethostbyname($domain);
         return $ip;
     }
