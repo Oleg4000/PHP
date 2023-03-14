@@ -10,8 +10,15 @@
 
 <body>
     <?php
-    $str = "Hello"
+    $str = "Hello";
     /* echo $str[0]; */
+    /*  echo $str[0];
+    echo '<br>';
+    echo strlen($str); */
+    /* for ($i = 0; $i < strlen($str); $i++) {
+        echo $str[$i] . "<br>";
+    } */
+
     ?>
 </body>
 
